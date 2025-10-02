@@ -1,7 +1,7 @@
-<center>
+<span style="text-align: center">
   <h1>🐱 Meowww</h1>
   <h3>A modern blog built with Astro 🚀</h1>
-</center>
+</span>
 
 ## Documentation Language 🌐
 简体中文 -> [README.md](README.md)  
