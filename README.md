@@ -10,7 +10,8 @@ English -> [README-EN.md](README-EN.md)
 
 ## 项目介绍 📝
 
-Meowww 是一个基于 Astro 的现代风博客，集成了 Markdown 和 Vue 组件。项目结构清晰，易于扩展和维护。
+Meowww 是一个基于 Astro 的现代风博客，集成了 Markdown 和 Vue 组件。项目结构清晰，易于扩展和维护。  
+**！！！项目仍在开发之中！！！ 可能会有些许莫名其妙的BUG！**
 
 ## 功能特点 ✨
 
