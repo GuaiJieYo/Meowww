@@ -1,7 +1,9 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
+/**
+ * 主题基础头部文件
+ * 包含分享页面的元数据
+ */
+import '../styles/global.scss';
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/blog-placeholder-1.jpg';
 import { SITE_TITLE } from '../consts';
@@ -17,7 +19,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const { title, description, image = FallbackImage } = Astro.props;
 ---
 
-<!-- Global Metadata -->
+<!-- 全局元数据 -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
