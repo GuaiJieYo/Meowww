@@ -1,7 +1,7 @@
-<span style="text-align: center">
+<div align="center">
   <h1>🐱 Meowww</h1>
-  <h3>A modern blog built with Astro 🚀</h1>
-</span>
+  <h3>A modern blog theme built with Astro 🚀</h1>
+</div>
 
 ## Documentation Language 🌐
 简体中文 -> [README.md](README.md)  
@@ -45,6 +45,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Contact 📧
 If you have any questions or suggestions, please reach out via the Issue page or contact me directly.
+Note: Most comments in the code are in Chinese. If you still can't understand after using AI to explain, you can open an issue
 
 ## Acknowledgments 🙏
 Thanks to all the developers who have contributed to this project.

@@ -2,17 +2,17 @@ import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const blog = defineCollection({
-	// Load Markdown and MDX files in the `src/content/blog/` directory.
-	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
-	// Type-check frontmatter using a schema
+	// 从./posts目录中载入MD和MDX文件
+	loader: glob({ base: './posts', pattern: '**/*.{md,mdx}' }),
+	// 读取frontMatter的内容进行类型检查
 	schema: ({ image }) =>
 		z.object({
-			title: z.string(),
-			description: z.string(),
-			// Transform string to Date object
-			pubDate: z.coerce.date(),
-			updatedDate: z.coerce.date().optional(),
-			heroImage: image().optional(),
+			title: z.string(), // 文章标题
+			description: z.string(), // 文章简述
+			pubDate: z.coerce.date(), // 发布日期
+			tags: z.array(z.string()).optional(), // 文章标签
+			updatedDate: z.coerce.date().optional(), // 更新日期
+			heroImage: image().optional(), // 封面图片
 		}),
 });
 

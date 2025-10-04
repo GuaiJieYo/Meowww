@@ -1,7 +1,7 @@
-<span style="text-align: center">
+<div align="center">
   <h1>🐱 Meowww</h1>
-  <h3>一个基于 Astro 的现代风博客 🚀</h1>
-</span>
+  <h3>一个基于 Astro 的现代风博客主题 🚀</h1>
+</div>
 
 ## 文档语言 🌐
 
