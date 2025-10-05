@@ -3,10 +3,9 @@ import { SITE } from "../config.theme";
 import HeaderLink from "./Header/Link.astro";
 import HeaderBtn from "./Header/Button.astro";
 
-// 读取当前文章的标题
+// 获取传入的title
 const { title } = Astro.props;
 ---
-
 <header>
   <nav class="nav">
     <div class="logo">
@@ -21,9 +20,16 @@ const { title } = Astro.props;
       <!-- 如果存在title再生成div -->
       {title && <div class="title">{title}</div>}
     </div>
-    <div class="btns"></div>
+    <div class="btns">
+      <HeaderBtn icon="regular,sun" />
+      <HeaderBtn icon="regular,moon" />
+      <HeaderBtn icon="solid,magnifying-glass" />
+    </div>
   </nav>
 </header>
+<script>
+
+</script>
 <style lang="scss">
   header {
     width: 100%;
@@ -32,7 +38,9 @@ const { title } = Astro.props;
     justify-content: center;
 
     nav {
-      width: 100%;
+      background: #000;
+      border-radius: 0 0 10px 10px;
+      width: 70%;
       display: flex;
       justify-content: space-between;
       align-items: center;
