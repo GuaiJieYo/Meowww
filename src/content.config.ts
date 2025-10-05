@@ -10,8 +10,9 @@ const blog = defineCollection({
 			title: z.string(), // 文章标题
 			description: z.string(), // 文章简述
 			pubDate: z.coerce.date(), // 发布日期
-			tags: z.array(z.string()).optional(), // 文章标签
 			updatedDate: z.coerce.date().optional(), // 更新日期
+			tags: z.array(z.string()).optional(), // 文章标签
+			category: z.string().optional(), // 文章归类
 			heroImage: image().optional(), // 封面图片
 		}),
 });
