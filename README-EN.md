@@ -24,13 +24,13 @@ git clone https://github.com/GuaiJieYo/Meowww.git
 cd Meowww
 
 # Install dependencies
-yarn
+pnpm i
 
 # Start the development server
-yarn dev
+pnpm dev
 
 # Build for production
-yarn build
+pnpm build
 ```
 
 ## License 📄

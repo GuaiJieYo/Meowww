@@ -29,13 +29,13 @@ git clone https://github.com/GuaiJieYo/Meowww.git
 cd Meowww
 
 # 安装依赖
-yarn
+pnpm i
 
 # 启动开发服务器
-yarn dev
+pnpm dev
 
 # 构建生产环境
-yarn build
+pnpm build
 ```
 
 ## 开源协议 📄
