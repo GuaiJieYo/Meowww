@@ -11,9 +11,7 @@ English -> [README-EN.md](README-EN.md)
 Meowww is a modern blog built with Astro, integrating Markdown and Vue components. It features a clear structure, making it easy to extend and maintain.
 
 ## Features ✨
-- **Markdown Support** 📝: Supports Markdown syntax for easy article writing.
-- **Vue Components** 💻: Utilizes Vue components to enhance interactivity and dynamic effects.
-- **Responsive Design** 📱: Adapts to various devices for an optimal user experience.
+- **Still Developing...**
 
 ## Project Deployment 🛠️
 ```bash
